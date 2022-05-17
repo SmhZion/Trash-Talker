@@ -45,7 +45,7 @@ game.StarterGui:SetCore("SendNotification",{
 wait(0.2)
 game.StarterGui:SetCore("SendNotification",{
     Title = "Trash Talker";
-    Text = "Press "T" to Trash Talk.";
+    Text = "Press ''T'' to Trash Talk.";
     Duration = 5;
 })
 wait(0.2)
