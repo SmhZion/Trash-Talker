@@ -36,3 +36,15 @@ UserInputService.InputBegan:Connect(function(Key)
         game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
     end
 end)
+wait(0.2)
+game.StarterGui:SetCore("SendNotification",{
+    Title = "Trash Talker";
+    Text = "Use this at your own risk, we are not responsible for **ANY** Bans from Roblox or in Game.";
+    Duration = 5;
+})
+wait(0.2)
+game.StarterGui:SetCore("SendNotification",{
+    Title = "Trash Talker";
+    Text = "Press "T" to Trash Talk.";
+    Duration = 5;
+})
