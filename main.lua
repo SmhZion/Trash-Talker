@@ -26,7 +26,10 @@ local TrashTalkMenu = {
 	"bro im right here?"
 }
 local UserInputService = game:GetService("UserInputService")
-UserInputService.InputBegan:Connect(function(Key)
+UserInputService.InputBegan:Connect(function(Key, GameProcessedEvent)
+	if GameProcessedEvent then
+		return
+	end
 	if Key.KeyCode == Enum.KeyCode.J then
 		local ChosenTrashText = math.random(1, #TrashTalkMenu)
 		local args = {
