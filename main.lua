@@ -30,7 +30,7 @@ UserInputService.InputBegan:Connect(function(Key, GameProcessedEvent)
 	if GameProcessedEvent then
 		return
 	end
-	if Key.KeyCode == Enum.KeyCode.J then
+	if Key.KeyCode == Enum.KeyCode.T then
 		local ChosenTrashText = math.random(1, #TrashTalkMenu)
 		local args = {
 			[1] = TrashTalkMenu[ChosenTrashText],
@@ -48,7 +48,7 @@ game.StarterGui:SetCore("SendNotification",{
 wait(0.2)
 game.StarterGui:SetCore("SendNotification",{
 	Title = "Trash Talker";
-	Text = "Press ''J'' to Trash Talk.";
+	Text = "Press ''T'' to Trash Talk.";
 	Duration = 10;
 })
 wait(0.2)
