@@ -54,6 +54,6 @@ game.StarterGui:SetCore("SendNotification",{
 wait(0.2)
 game.StarterGui:SetCore("SendNotification",{
 	Title = "Trash Talker";
-	Text = "Credits: SmhZion#6012";
+	Text = "Credits: MeliteDoesThings#6012";
 	Duration = 5;
 })
