@@ -23,7 +23,12 @@ local TrashTalkMenu = {
 	"just play the game right",
 	"wasnt so hard",
 	"should get good",
-	"bro im right here?"
+	"bro im right here?",
+	"i would say you shoot like cancer, but cancer actually kills",
+	"you miss more shots than a stormtrooper",
+	"do u mind leaving the game lol, id rather be playing with the ai",
+	"you could feed whole africa with ur deaths",
+	"VICTORYY!!"
 }
 local UserInputService = game:GetService("UserInputService")
 UserInputService.InputBegan:Connect(function(Key, GameProcessedEvent)
